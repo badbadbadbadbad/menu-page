@@ -1,5 +1,6 @@
 import "./style.css";
 import createHome from "./homeTab";
+// import createAbout from "./aboutTab";
 
 function createHeader() {
   const header = document.createElement("div");
@@ -48,7 +49,7 @@ function createFooter() {
 
   const footerText = document.createElement("div");
   footerText.setAttribute("id", "header-text");
-  footerText.innerHTML = "© 2023 Mobius Interactive";
+  footerText.innerHTML = "Art and Game content © 2019 Mobius Interactive";
   footerSection.appendChild(footerText);
 
   return footerSection;
@@ -56,4 +57,6 @@ function createFooter() {
 
 document.body.appendChild(createHeader());
 document.body.appendChild(createHome());
+// document.body.appendChild(createPlanets());
+// document.body.appendChild(createAbout());
 document.body.appendChild(createFooter());
