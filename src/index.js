@@ -75,7 +75,5 @@ function createFooter() {
 }
 
 document.body.appendChild(createHeader());
-// document.body.appendChild(createHome());
-document.body.appendChild(createPlanets());
-// document.body.appendChild(createAbout());
+document.body.appendChild(createHome());
 document.body.appendChild(createFooter());
