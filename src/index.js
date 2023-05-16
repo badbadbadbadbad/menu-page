@@ -1,5 +1,6 @@
 import "./style.css";
-import createHome from "./homeTab";
+// import createHome from "./homeTab";
+import createPlanets from "./planetsTab";
 // import createAbout from "./aboutTab";
 
 function createHeader() {
@@ -9,7 +10,7 @@ function createHeader() {
   // Welcome text
   const headerText = document.createElement("div");
   headerText.setAttribute("id", "header-text");
-  headerText.innerHTML = "Discover.";
+  headerText.innerHTML = "Hearthspace";
   header.appendChild(headerText);
 
   // Navigation buttons
@@ -56,7 +57,7 @@ function createFooter() {
 }
 
 document.body.appendChild(createHeader());
-document.body.appendChild(createHome());
-// document.body.appendChild(createPlanets());
+// document.body.appendChild(createHome());
+document.body.appendChild(createPlanets());
 // document.body.appendChild(createAbout());
 document.body.appendChild(createFooter());

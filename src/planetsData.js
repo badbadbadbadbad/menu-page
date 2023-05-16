@@ -1,6 +1,3 @@
-import planetData from "./planetsData";
-
-/*
 import outerWildsVenturesImage from "./Assets/IconsColor/outerWildsVentures.png";
 import sunImage from "./Assets/IconsColor/sun.png";
 import sunStationImage from "./Assets/IconsColor/sunStation.png";
@@ -109,63 +106,5 @@ const planetData = [
       "The Deep Space Satellite we managed to launch recently has already produced magnificent images of our Solar System. Curiously, this image - and this image alone - shows an anomaly that we do not understand. Each astral body is accounted for, yet there is an impossible shadow on the sun. Gabbro was tasked with checking the Deep Space Satellite for any problems, yet they were not able to find anything.",
   },
 ];
-*/
 
-class Planet {
-  constructor(image, name, description) {
-    this.image = image;
-    this.name = name;
-    this.description = description;
-  }
-
-  createHTMLElement() {
-    const planetElement = document.createElement("div");
-    planetElement.classList.add("planet");
-
-    const imageElement = document.createElement("img");
-    imageElement.setAttribute("src", this.image);
-    imageElement.setAttribute("alt", `Image of ${this.name}`);
-
-    const nameElement = document.createElement("h2");
-    nameElement.textContent = this.name;
-
-    const descriptionElement = document.createElement("p");
-    descriptionElement.textContent = this.description;
-
-    planetElement.append(imageElement, nameElement, descriptionElement);
-    /*
-    planetElement.appendChild(imageElement);
-    planetElement.appendChild(nameElement);
-    planetElement.appendChild(descriptionElement);
-    */
-
-    return planetElement;
-  }
-}
-
-const createPlanets = () => {
-  const planetsSection = document.createElement("div");
-  planetsSection.setAttribute("id", "planets");
-
-  const planetElements = planetData.map((data) => {
-    const planet = new Planet(data.image, data.name, data.description);
-    return planet.createHTMLElement();
-  });
-
-  planetsSection.append(...planetElements);
-  return planetsSection;
-};
-
-export default createPlanets;
-
-// Grid: 5 rows in fullscreen, 3 rows in half?
-// Use gap between elements
-
-// Each element is in a rounded borderless box
-// Each element uses a slightly opaque black background
-
-// Each element has a small image or icon
-// Each element has the planet name
-// Each element has two bullet points with a description
-
-//
+export default planetData;
