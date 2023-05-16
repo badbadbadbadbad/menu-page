@@ -30,6 +30,7 @@ class Planet {
 const createPlanets = () => {
   const planetsSection = document.createElement("div");
   planetsSection.setAttribute("id", "planets");
+  planetsSection.setAttribute("class", "content");
 
   const planetElements = planetData.map((data) => {
     const planet = new Planet(data.image, data.name, data.description);

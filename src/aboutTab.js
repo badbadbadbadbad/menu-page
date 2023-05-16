@@ -1,6 +1,7 @@
 const createAbout = () => {
   const aboutSection = document.createElement("div");
   aboutSection.setAttribute("id", "about");
+  aboutSection.setAttribute("class", "content");
 
   const aboutText = document.createElement("div");
   aboutText.setAttribute("id", "about-text");

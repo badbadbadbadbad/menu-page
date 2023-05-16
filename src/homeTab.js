@@ -1,6 +1,7 @@
 const createHome = () => {
   const homeSection = document.createElement("div");
   homeSection.setAttribute("id", "home");
+  homeSection.setAttribute("class", "content");
 
   const homeText = document.createElement("div");
   homeText.setAttribute("id", "home-text");

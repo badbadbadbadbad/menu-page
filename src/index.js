@@ -1,7 +1,7 @@
 import "./style.css";
-// import createHome from "./homeTab";
+import createHome from "./homeTab";
 import createPlanets from "./planetsTab";
-// import createAbout from "./aboutTab";
+import createAbout from "./aboutTab";
 
 function createHeader() {
   const header = document.createElement("div");
@@ -28,14 +28,32 @@ function createHeader() {
 
     buttonsElement.appendChild(btn);
 
-    // Currently selected button underline
+    let currentTab;
+
     btn.addEventListener("click", () => {
+      // Remove button underlines
       const buttonsGroup = document.querySelectorAll(".button");
       buttonsGroup.forEach((button) => {
         button.classList.remove("selected");
       });
 
+      // Add underline to clicked button
       btn.classList.add("selected");
+
+      // Unload current tab
+      const currentContent = document.getElementById(document.body.querySelector(".content").id);
+      document.body.removeChild(currentContent);
+
+      // Load correct tab
+      if (element === "Home") {
+        currentTab = createHome();
+      } else if (element === "Planets") {
+        currentTab = createPlanets();
+      } else if (element === "About") {
+        currentTab = createAbout();
+      }
+
+      document.body.insertBefore(currentTab, document.getElementById("footer"));
     });
   });
 
