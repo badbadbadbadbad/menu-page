@@ -22,7 +22,7 @@ const planetData = [
       "That's us! Our goal is to explore our Solar System, the mysterious Nomai who used to live here, and retrieve artifacts we believe to be interesting. Our tools, like the ship's artificial gravity and scout launcher recall, are based on Nomai technology.",
   },
   {
-    name: "Sun",
+    name: "The Sun",
     image: sunImage,
     description:
       "The Sun is a main sequence star at the center of our Solar System. It may seem like it should burn us alive due to its proximity, but considering that we are alive, there must be an error in our calculations. Still, be careful of not flying into it by accident due to using your ship's autopilot carelessly!",
