@@ -29,7 +29,6 @@ function createHeader() {
     buttonsElement.appendChild(btn);
 
     let currentTab;
-
     btn.addEventListener("click", () => {
       // Remove button underlines
       const buttonsGroup = document.querySelectorAll(".button");
