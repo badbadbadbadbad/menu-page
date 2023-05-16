@@ -1,9 +1,10 @@
 import planetData from "./planetsData";
 
 class Planet {
-  constructor(image, name, description) {
+  constructor(image, outline, name, description) {
     this.image = image;
     this.name = name;
+    this.outline = outline;
     this.description = description;
   }
 
@@ -11,9 +12,14 @@ class Planet {
     const planetElement = document.createElement("div");
     planetElement.classList.add("planet");
 
+    const imageContainer = document.createElement("div");
+    imageContainer.setAttribute("class", "image-container");
+
     const imageElement = document.createElement("img");
     imageElement.setAttribute("src", this.image);
     imageElement.setAttribute("alt", `Image of ${this.name}`);
+    imageElement.setAttribute("class", "image");
+    imageContainer.append(imageElement);
 
     const nameElement = document.createElement("h3");
     nameElement.textContent = this.name;
@@ -21,7 +27,15 @@ class Planet {
     const descriptionElement = document.createElement("p");
     descriptionElement.textContent = this.description;
 
-    planetElement.append(imageElement, nameElement, descriptionElement);
+    if (!(this.outline === "none")) {
+      const outlineElement = document.createElement("img");
+      outlineElement.setAttribute("src", this.outline);
+      outlineElement.setAttribute("alt", `Outline of ${this.name}`);
+      outlineElement.setAttribute("class", "outline");
+      imageContainer.append(outlineElement);
+    }
+
+    planetElement.append(imageContainer, nameElement, descriptionElement);
 
     return planetElement;
   }
@@ -33,7 +47,7 @@ const createPlanets = () => {
   planetsSection.setAttribute("class", "content");
 
   const planetElements = planetData.map((data) => {
-    const planet = new Planet(data.image, data.name, data.description);
+    const planet = new Planet(data.image, data.outline, data.name, data.description);
     return planet.createHTMLElement();
   });
 
