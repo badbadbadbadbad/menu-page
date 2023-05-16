@@ -35,84 +35,84 @@ const planetData = [
     image: sunImage,
     outline: sunOutline,
     description:
-      "The Sun is a main sequence star at the center of our Solar System. It may seem like it should burn us alive due to its proximity, but considering that we are alive, there must be an error in our calculations. Still, be careful of not flying into it by accident due to using your ship's autopilot carelessly!",
+      "The Sun, a main sequence star situated at the center of our Solar System, might appear to be a fiery inferno that could instantly incinerate us due to its proximity. However, as we're still here, there must be an error in our calculations. Nevertheless, we must exercise caution and avoid accidentally colliding with it due to our ship's autopilot, which can be hazardous if not handled carefully!",
   },
   {
     name: "Sun Station",
     image: sunStationImage,
     outline: sunStationOutline,
     description:
-      "A satellite orbiting the Sun. Considering the design, it appears to be of Nomai origin. So far, there have been no successful attempts at landing on it (and Feldspar trying repeatedly to crash into it does not count).",
+      "Behold, a satellite orbiting the Sun! Judging from its design, it seems to be of Nomai origin, though we have no idea how it is not burnt to a crisp yet. Despite numerous attempts, no one has been successful in landing on it (and let's not count Feldspar's repeated attempts to crash into it!).",
   },
   {
     name: "Ember Twin",
     image: emberTwinImage,
     outline: emberTwinOutline,
     description:
-      "The first half of the Hourglass Twins. Mostly desert rock and many deep caverns, though the planet appears to almost be divided into two halves by an equatorial canyon. Over the course of a Twin Cycle, the sands of Ash Twin are transported into this canyon by gravitational pull.",
+      "The first half of the Hourglass Twins, mostly made up of rocky desert terrain, riddled with numerous deep caverns. What sets it apart is the equatorial canyon that almost appears to divide the planet into two halves. Over the course of a Twin Cycle, the sands of Ash Twin are slowly pulled into this canyon by the irresistible force of gravity, creating a breathtaking sight that must be seen to be believed!",
   },
   {
     name: "Ash Twin",
     image: ashTwinImage,
     outline: ashTwinOutline,
     description:
-      "The second half of the Hourglasss Twins. Almost entirely sand, which is transported back and forth between the twins on a cycle of roughly 20 minutes. Hiding beneath the sands are a small core of sparkly rock and large towers of Nomai origin.",
+      "The other half of the Hourglass Twins, a stunning planet that boasts an almost entirely sandy terrain. What's fascinating about this planet is that the sands are in constant motion, being transported back and forth between the twins in a cycle that lasts approximately 45 minutes. But that's not all! Beneath the shimmering sands lies a small core of glittering rock and towering structures of Nomai origin, just waiting to be explored.",
   },
   {
     name: "Timber Hearth",
     image: timberHearthImage,
     outline: timberHearthOutline,
     description:
-      "Our home! A rocky planet, covered in grass, accented with trees, geysers, mountains and craters. One of the craters houses our little village, and the geysers are all connected to strong underground water currents hiding beneath the planet's crust.",
+      "Welcome to our planet, our beloved home! It's a rocky world covered in green grass, dotted with trees, mountains, and craters. Our little village is situated in one of the craters, and the geysers on the planet are connected to underground water currents that flow beneath the surface.",
   },
   {
     name: "The Attlerock",
     image: attlerockImage,
     outline: attlerockOutline,
     description:
-      "The only moon of Timber Hearth. A small and barren rock, covered in craters. While there does not seem to be much of anything here, we have built an outpost which is being overseen by Esker. The only point of interest is a Nomai structure - which we believe is trying to locate.. something.",
+      "Behold, the only moon of Timber Hearth, a small and barren world marked by countless craters. Though it may not seem like much, we have managed to establish an outpost here, which is currently being overseen by Esker. The moon's only point of interest is a mysterious Nomai structure that we believe is attempting to locate... something. What secrets could this moon hold? Only time will tell!",
   },
   {
     name: "Brittle Hollow",
     image: brittleHollowImage,
     outline: brittleHollowOutline,
     description:
-      "On a glance, this planet seems to be a lot of blue rock, all brittle and in disarray. The interesting aspect lies beneath the crust: The planet is almost entirely hollow, and at the core awaits a Black Hole. We do know that there is a hanging Nomai city under the crust, though exploring it has proven to be difficult.",
+      "At first glance, this planet may appear to be nothing more than a jumbled mass of brittle blue rocks in disarray. But don't be fooled, for its true wonder lies beneath the surface. Believe it or not, this planet is almost entirely hollow, with a massive black hole at its core! But that's not all, for there is also a mysterious hanging Nomai city tucked away beneath the crust. While we have attempted to explore it, the city remains a challenging mystery waiting to be solved.",
   },
   {
     name: "Hollow's Lantern",
     image: hollowsLanternImage,
     outline: hollowsLanternOutline,
     description:
-      "The only moon of Brittle Hollow. It appears as if this moon is nothing but lava and a few volcanoes. The volcanoes shoot out balls of lava into the orbit of its planet every so often, making exploration of Brittle Hollow even more fear-inducing.",
+      "Set your sights on the only moon of Brittle Hollow! At first glance, it may seem like nothing but a fiery wasteland, with lava flows and towering volcanoes dominating the landscape. But be warned, this moon holds a danger that extends far beyond its surface. The volcanoes occasionally launch balls of molten lava into orbit around the planet, making exploration of the already treacherous Brittle Hollow even more fear-inducing. Beware, brave adventurer!",
   },
   {
     name: "Giant's Deep",
     image: giantsDeepImage,
     outline: giantsDeepOutline,
     description:
-      "An ocean planet surrounded by a layer of atmospheric fog. There is no solid land besides a few small islands which are being ravaged by constant tornadoes and thunderstorms. While the ocean itself seems to be safe, it is also impossible to dive deeper than a few metres due to strong currents pushing one out. Still, this planet seems to be among the safer ones in our Solar System.",
+      "This aquatic world is shrouded by a thick layer of atmospheric fog, making it a sight to behold. Unfortunately, the only solid ground on this planet consists of small, battered islands that are constantly pummeled by violent tornadoes and thunderstorms. While the ocean itself appears to be relatively safe, the strong currents make it impossible to dive very deep. Despite its challenges, however, this planet is considered one of the safer destinations in our Solar System.",
   },
   {
     name: "Nomai Cannon",
     image: orbitalProbeCannonImage,
     outline: orbitalProbeCannonOutline,
     description:
-      "A large structure of Nomai origin in orbit around Giant's Deep. We are not entirely sure what this structure actually is, but as it seems to resemble a large cannon, we have decided to call it that. We hope that the Nomai translation tool we developed recently will help us understand more about this structure.",
+      "Behold, the mysterious Nomai structure orbiting Giant's Deep! This imposing edifice has left us scratching our heads, as we are still not entirely sure what it is. Some have likened it to a massive cannon, due to its distinctive shape and size. Despite our confusion, we remain undeterred in our quest for answers. With the recent development of our Nomai translation tool, we hope to unravel the secrets of this enigmatic structure and uncover its true purpose.",
   },
   {
     name: "Dark Bramble",
     image: darkBrambleImage,
     outline: darkBrambleOutline,
     description:
-      "This planet used to be a small frozen water planet, but has since been ripped apart by some kind of enormous vine growth for as long as we have known. The center of this vine growth has multiple openings, yet we cannot see anything inside besides dense fog and lights. We have not yet dared investigating the inside of the core.",
+      "Welcome to the eerie planet that was once a frozen ball of water! However, as long as we can remember, it has been overtaken by an enormous vine growth that has torn it apart. The center of this growth is particularly intriguing, with multiple openings revealing nothing but an impenetrable fog and mysterious lights. Despite our curiosity, we have yet to muster the courage to explore the interior of this enigmatic core.",
   },
   {
     name: "The Interloper",
     image: interloperImage,
     outline: interloperOutline,
     description:
-      "A small frozen comet orbiting the Sun, leaving behind a magnificent light blue tail. There is not much we know besides the comet containing a layer of rock and its orbit being a stable ellipsis. Due to the speed and size, we have not yet been able to land on the comet.",
+      "This small comet orbits the Sun, leaving behind a magnificent light blue tail as it travels through space. It contains a layer of rock, but there is not much else that we know about it. Its orbit is a stable ellipse, but due to its high speed and small size, we have not been able to land on the comet yet",
   },
   {
     name: "White Hole Station",
@@ -126,14 +126,14 @@ const planetData = [
     image: quantumMoonImage,
     outline: quantumMoonOutline,
     description:
-      "A small and most curious moon, being in orbit around all five planets of our Solar System at the same time. It appears to behave similar to the purple shard in the Museum - look at it as long as you want, but the moment you look away, it disappears and orbits another planet. The Quantum Moon is covered in thick fog, so we do not know what it actually looks like.",
+      "Welcome to the most mysterious moon in our Solar System - the Quantum Moon! It orbits around all five planets simultaneously, defying the laws of physics as we know them. This enigmatic moon seems to behave like the purple shard in the Museum; as soon as you look away, it vanishes and reappears in orbit around another planet. The Quantum Moon is shrouded in a thick layer of fog, and we have yet to observe its true appearance.",
   },
   {
     name: "???",
     image: strangerImage,
     outline: "none",
     description:
-      "The Deep Space Satellite we managed to launch recently has already produced magnificent images of our Solar System. Curiously, this image - and this image alone - shows an anomaly that we do not understand. Each astral body is accounted for, yet there is an impossible shadow on the sun. Gabbro was tasked with checking the Deep Space Satellite for any problems, yet they were not able to find anything.",
+      "The Deep Space Satellite, launched recently, has already captured magnificent images of our Solar System. However, a puzzling anomaly has been detected in one image that we cannot explain. Every celestial body is accounted for, but there is an inexplicable shadow on the sun. To investigate this mysterious phenomenon, we tasked Gabbro with checking the Deep Space Satellite for any malfunctions, but they found nothing wrong with it.",
   },
 ];
 

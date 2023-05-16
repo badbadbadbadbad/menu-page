@@ -9,7 +9,7 @@ const createAbout = () => {
   const first = document.createElement("div");
   first.setAttribute("class", "about-text-fragment");
   first.innerHTML =
-    "Outer Wilds Ventures was founded by Feldspar, Gossan, Slate and Hornfels with the goal of exploring our Solar System to improve Hearthian understanding of it and of the Nomai, an ancient race that once lived here. We accomplish this by training aspiring astronauts and equipping them with advanced space exploration technology. The recruits are then sent into space with the goal of learning about the Solar System, the mysterious Nomai, and to retrieve any artifacts they believe to be significant.";
+    "Outer Wilds Ventures was established by a group of ambitious explorers - Feldspar, Gossan, Slate, and Hornfels - with a common purpose in mind: to delve into the depths of our Solar System, increase our knowledge of the ancient Nomai civilization, and uncover the secrets that the universe holds. To achieve this goal, we train young astronauts and equip them with cutting-edge space exploration technology before sending them out into the great unknown. The recruits are tasked with learning all they can about our Solar System, studying the cryptic Nomai artifacts, and recovering any items that they deem of value.";
 
   aboutSection.append(aboutText);
   aboutText.append(first);
