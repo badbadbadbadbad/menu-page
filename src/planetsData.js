@@ -1,4 +1,3 @@
-import outerWildsVenturesImage from "./Assets/IconsColor/outerWildsVentures.png";
 import sunImage from "./Assets/IconsColor/sun.png";
 import sunStationImage from "./Assets/IconsColor/sunStation.png";
 import emberTwinImage from "./Assets/IconsColor/emberTwin.png";
@@ -31,13 +30,6 @@ import whiteHoleStationOutline from "./Assets/IconsColorOutlines/whiteHoleStatio
 import quantumMoonOutline from "./Assets/IconsColorOutlines/quantumMoon.png";
 
 const planetData = [
-  {
-    name: "Outer Wilds Ventures",
-    image: outerWildsVenturesImage,
-    outline: "none",
-    description:
-      "That's us! Our goal is to explore our Solar System, the mysterious Nomai who used to live here, and retrieve artifacts we believe to be interesting. Our tools, like the ship's artificial gravity and scout launcher recall, are based on Nomai technology.",
-  },
   {
     name: "The Sun",
     image: sunImage,
