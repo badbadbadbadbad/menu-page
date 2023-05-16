@@ -68,7 +68,7 @@ function createFooter() {
 
   const footerText = document.createElement("div");
   footerText.setAttribute("id", "header-text");
-  footerText.innerHTML = "Art and Game content © 2019 Mobius Interactive";
+  footerText.innerHTML = "Art and Game content © 2019 Mobius Digital";
   footerSection.appendChild(footerText);
 
   return footerSection;
