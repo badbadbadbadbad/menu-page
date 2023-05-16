@@ -11,6 +11,7 @@ import giantsDeepImage from "./Assets/IconsColor/giantsDeep.png";
 import orbitalProbeCannonImage from "./Assets/IconsColor/orbitalProbeCannon.png";
 import darkBrambleImage from "./Assets/IconsColor/darkBramble.png";
 import interloperImage from "./Assets/IconsColor/interloper.png";
+import whiteHoleStationImage from "./Assets/IconsColor/whiteHoleStation.png";
 import quantumMoonImage from "./Assets/IconsColor/quantumMoon.png";
 import strangerImage from "./Assets/stranger.png";
 
@@ -92,6 +93,12 @@ const planetData = [
     image: interloperImage,
     description:
       "A small frozen comet orbiting the Sun, leaving behind a magnificent light blue tail. There is not much we know besides the comet containing a layer of rock and its orbit being a stable ellipsis. Due to the speed and size, we have not yet been able to land on the comet.",
+  },
+  {
+    name: "White Hole Station",
+    image: whiteHoleStationImage,
+    description:
+      "At the edge of our Solar System is a White Hole which is just as awe-inspiring as Brittle Hollow's Black Hole. Close to it is a Nomai building that appears to be some kind of outpost or station, enclosed in a circular frame. The function of this building is currently unclear to us.",
   },
   {
     name: "Quantum Moon",
